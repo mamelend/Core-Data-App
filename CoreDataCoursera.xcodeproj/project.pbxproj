@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		264F65BE1D21C95800E0234F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 264F65BD1D21C95800E0234F /* main.m */; };
+		264F65C11D21C95800E0234F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 264F65C01D21C95800E0234F /* AppDelegate.m */; };
+		264F65C41D21C95800E0234F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 264F65C31D21C95800E0234F /* ViewController.m */; };
+		264F65C71D21C95800E0234F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264F65C51D21C95800E0234F /* Main.storyboard */; };
+		264F65CA1D21C95800E0234F /* CoreDataCoursera.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 264F65C81D21C95800E0234F /* CoreDataCoursera.xcdatamodeld */; };
+		264F65CC1D21C95800E0234F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 264F65CB1D21C95800E0234F /* Assets.xcassets */; };
+		264F65CF1D21C95800E0234F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264F65CD1D21C95800E0234F /* LaunchScreen.storyboard */; };
+		264F65EF1D2207D000E0234F /* ChoreLogMO+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 264F65E41D2207D000E0234F /* ChoreLogMO+CoreDataProperties.m */; };
+		264F65F01D2207D000E0234F /* ChoreLogMO.m in Sources */ = {isa = PBXBuildFile; fileRef = 264F65E61D2207D000E0234F /* ChoreLogMO.m */; };
+		264F65F11D2207D000E0234F /* PersonMO+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 264F65E81D2207D000E0234F /* PersonMO+CoreDataProperties.m */; };
+		264F65F21D2207D000E0234F /* PersonMO.m in Sources */ = {isa = PBXBuildFile; fileRef = 264F65EA1D2207D000E0234F /* PersonMO.m */; };
+		264F65F31D2207D000E0234F /* ChoreMO+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 264F65EC1D2207D000E0234F /* ChoreMO+CoreDataProperties.m */; };
+		264F65F41D2207D000E0234F /* ChoreMO.m in Sources */ = {isa = PBXBuildFile; fileRef = 264F65EE1D2207D000E0234F /* ChoreMO.m */; };
+		26EE5EF71D235961007808BC /* PickerViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EE5EF61D235961007808BC /* PickerViewHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		264F65B91D21C95800E0234F /* CoreDataCoursera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataCoursera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		264F65BD1D21C95800E0234F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		264F65BF1D21C95800E0234F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		264F65C01D21C95800E0234F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		264F65C21D21C95800E0234F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		264F65C31D21C95800E0234F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		264F65C61D21C95800E0234F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		264F65C91D21C95800E0234F /* CoreDataCoursera.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataCoursera.xcdatamodel; sourceTree = "<group>"; };
+		264F65CB1D21C95800E0234F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		264F65CE1D21C95800E0234F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		264F65D01D21C95800E0234F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		264F65D61D22078C00E0234F /* CoreDataCoursera-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreDataCoursera-Bridging-Header.h"; sourceTree = "<group>"; };
+		264F65E31D2207D000E0234F /* ChoreLogMO+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ChoreLogMO+CoreDataProperties.h"; sourceTree = "<group>"; };
+		264F65E41D2207D000E0234F /* ChoreLogMO+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ChoreLogMO+CoreDataProperties.m"; sourceTree = "<group>"; };
+		264F65E51D2207D000E0234F /* ChoreLogMO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChoreLogMO.h; sourceTree = "<group>"; };
+		264F65E61D2207D000E0234F /* ChoreLogMO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChoreLogMO.m; sourceTree = "<group>"; };
+		264F65E71D2207D000E0234F /* PersonMO+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PersonMO+CoreDataProperties.h"; sourceTree = "<group>"; };
+		264F65E81D2207D000E0234F /* PersonMO+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PersonMO+CoreDataProperties.m"; sourceTree = "<group>"; };
+		264F65E91D2207D000E0234F /* PersonMO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonMO.h; sourceTree = "<group>"; };
+		264F65EA1D2207D000E0234F /* PersonMO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonMO.m; sourceTree = "<group>"; };
+		264F65EB1D2207D000E0234F /* ChoreMO+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ChoreMO+CoreDataProperties.h"; sourceTree = "<group>"; };
+		264F65EC1D2207D000E0234F /* ChoreMO+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ChoreMO+CoreDataProperties.m"; sourceTree = "<group>"; };
+		264F65ED1D2207D000E0234F /* ChoreMO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChoreMO.h; sourceTree = "<group>"; };
+		264F65EE1D2207D000E0234F /* ChoreMO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChoreMO.m; sourceTree = "<group>"; };
+		26EE5EF51D235961007808BC /* PickerViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerViewHelper.h; sourceTree = "<group>"; };
+		26EE5EF61D235961007808BC /* PickerViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerViewHelper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		264F65B61D21C95800E0234F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		264F65B01D21C95800E0234F = {
+			isa = PBXGroup;
+			children = (
+				264F65E31D2207D000E0234F /* ChoreLogMO+CoreDataProperties.h */,
+				264F65E41D2207D000E0234F /* ChoreLogMO+CoreDataProperties.m */,
+				264F65E51D2207D000E0234F /* ChoreLogMO.h */,
+				264F65E61D2207D000E0234F /* ChoreLogMO.m */,
+				264F65E71D2207D000E0234F /* PersonMO+CoreDataProperties.h */,
+				264F65E81D2207D000E0234F /* PersonMO+CoreDataProperties.m */,
+				264F65E91D2207D000E0234F /* PersonMO.h */,
+				264F65EA1D2207D000E0234F /* PersonMO.m */,
+				264F65EB1D2207D000E0234F /* ChoreMO+CoreDataProperties.h */,
+				264F65EC1D2207D000E0234F /* ChoreMO+CoreDataProperties.m */,
+				264F65ED1D2207D000E0234F /* ChoreMO.h */,
+				264F65EE1D2207D000E0234F /* ChoreMO.m */,
+				264F65BB1D21C95800E0234F /* CoreDataCoursera */,
+				264F65BA1D21C95800E0234F /* Products */,
+				264F65D61D22078C00E0234F /* CoreDataCoursera-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		264F65BA1D21C95800E0234F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				264F65B91D21C95800E0234F /* CoreDataCoursera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		264F65BB1D21C95800E0234F /* CoreDataCoursera */ = {
+			isa = PBXGroup;
+			children = (
+				264F65BF1D21C95800E0234F /* AppDelegate.h */,
+				264F65C01D21C95800E0234F /* AppDelegate.m */,
+				264F65C21D21C95800E0234F /* ViewController.h */,
+				264F65C31D21C95800E0234F /* ViewController.m */,
+				264F65C51D21C95800E0234F /* Main.storyboard */,
+				26EE5EF51D235961007808BC /* PickerViewHelper.h */,
+				26EE5EF61D235961007808BC /* PickerViewHelper.m */,
+				264F65CB1D21C95800E0234F /* Assets.xcassets */,
+				264F65CD1D21C95800E0234F /* LaunchScreen.storyboard */,
+				264F65D01D21C95800E0234F /* Info.plist */,
+				264F65C81D21C95800E0234F /* CoreDataCoursera.xcdatamodeld */,
+				264F65BC1D21C95800E0234F /* Supporting Files */,
+			);
+			path = CoreDataCoursera;
+			sourceTree = "<group>";
+		};
+		264F65BC1D21C95800E0234F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				264F65BD1D21C95800E0234F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		264F65B81D21C95800E0234F /* CoreDataCoursera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 264F65D31D21C95800E0234F /* Build configuration list for PBXNativeTarget "CoreDataCoursera" */;
+			buildPhases = (
+				264F65B51D21C95800E0234F /* Sources */,
+				264F65B61D21C95800E0234F /* Frameworks */,
+				264F65B71D21C95800E0234F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreDataCoursera;
+			productName = CoreDataCoursera;
+			productReference = 264F65B91D21C95800E0234F /* CoreDataCoursera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		264F65B11D21C95800E0234F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Miguel Melendez";
+				TargetAttributes = {
+					264F65B81D21C95800E0234F = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 6MNZPDBHKE;
+					};
+				};
+			};
+			buildConfigurationList = 264F65B41D21C95800E0234F /* Build configuration list for PBXProject "CoreDataCoursera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 264F65B01D21C95800E0234F;
+			productRefGroup = 264F65BA1D21C95800E0234F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				264F65B81D21C95800E0234F /* CoreDataCoursera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		264F65B71D21C95800E0234F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264F65CF1D21C95800E0234F /* LaunchScreen.storyboard in Resources */,
+				264F65CC1D21C95800E0234F /* Assets.xcassets in Resources */,
+				264F65C71D21C95800E0234F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		264F65B51D21C95800E0234F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264F65F21D2207D000E0234F /* PersonMO.m in Sources */,
+				264F65F11D2207D000E0234F /* PersonMO+CoreDataProperties.m in Sources */,
+				264F65F01D2207D000E0234F /* ChoreLogMO.m in Sources */,
+				264F65CA1D21C95800E0234F /* CoreDataCoursera.xcdatamodeld in Sources */,
+				264F65C41D21C95800E0234F /* ViewController.m in Sources */,
+				264F65EF1D2207D000E0234F /* ChoreLogMO+CoreDataProperties.m in Sources */,
+				26EE5EF71D235961007808BC /* PickerViewHelper.m in Sources */,
+				264F65C11D21C95800E0234F /* AppDelegate.m in Sources */,
+				264F65F41D2207D000E0234F /* ChoreMO.m in Sources */,
+				264F65F31D2207D000E0234F /* ChoreMO+CoreDataProperties.m in Sources */,
+				264F65BE1D21C95800E0234F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		264F65C51D21C95800E0234F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				264F65C61D21C95800E0234F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		264F65CD1D21C95800E0234F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				264F65CE1D21C95800E0234F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		264F65D11D21C95800E0234F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		264F65D21D21C95800E0234F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		264F65D41D21C95800E0234F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = CoreDataCoursera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = miguelmelendezcalero.CoreDataCoursera.CoreDataCoursera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CoreDataCoursera-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		264F65D51D21C95800E0234F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = CoreDataCoursera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = miguelmelendezcalero.CoreDataCoursera.CoreDataCoursera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CoreDataCoursera-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		264F65B41D21C95800E0234F /* Build configuration list for PBXProject "CoreDataCoursera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				264F65D11D21C95800E0234F /* Debug */,
+				264F65D21D21C95800E0234F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		264F65D31D21C95800E0234F /* Build configuration list for PBXNativeTarget "CoreDataCoursera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				264F65D41D21C95800E0234F /* Debug */,
+				264F65D51D21C95800E0234F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		264F65C81D21C95800E0234F /* CoreDataCoursera.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				264F65C91D21C95800E0234F /* CoreDataCoursera.xcdatamodel */,
+			);
+			currentVersion = 264F65C91D21C95800E0234F /* CoreDataCoursera.xcdatamodel */;
+			path = CoreDataCoursera.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 264F65B11D21C95800E0234F /* Project object */;
+}

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xM7-by-Ud2">
+                                <rect key="frame" x="-4" y="20" width="160" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="JjH-HH-MBG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rMY-UN-iZO">
+                                <rect key="frame" x="-4" y="58" width="160" height="30"/>
+                                <state key="normal" title="Add Chore"/>
+                                <connections>
+                                    <action selector="addChoreButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QDM-qS-EdM"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nsd-MA-xcK">
+                                <rect key="frame" x="-4" y="438" width="328" height="82"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="82" id="Kqa-zo-jR9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GY0-mL-KdS">
+                                <rect key="frame" x="127" y="528" width="66" height="30"/>
+                                <state key="normal" title="Delete All"/>
+                                <connections>
+                                    <action selector="deleteChoreButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kQF-tF-yXg"/>
+                                </connections>
+                            </button>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s9B-aR-SbO">
+                                <rect key="frame" x="0.0" y="86" width="160" height="108"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="108" id="6Ri-2h-IY3"/>
+                                </constraints>
+                            </pickerView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vy4-YK-h25">
+                                <rect key="frame" x="164" y="20" width="160" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="Vv7-7B-odq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZKj-ER-KRE">
+                                <rect key="frame" x="164" y="58" width="160" height="30"/>
+                                <state key="normal" title="Add Person"/>
+                                <connections>
+                                    <action selector="addPersonButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jct-8S-os8"/>
+                                </connections>
+                            </button>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pq5-Ek-qDe">
+                                <rect key="frame" x="164" y="86" width="160" height="108"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="108" id="qRw-Ns-0Mv"/>
+                                </constraints>
+                            </pickerView>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="X4O-7S-1sa">
+                                <rect key="frame" x="0.0" y="176" width="320" height="216"/>
+                                <date key="date" timeIntervalSinceReferenceDate="489179953.748658">
+                                    <!--2016-07-02 19:19:13 +0000-->
+                                </date>
+                            </datePicker>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jgz-9A-5a5">
+                                <rect key="frame" x="89" y="400" width="143" height="30"/>
+                                <state key="normal" title="Add Chore Log Entry"/>
+                                <connections>
+                                    <action selector="choreLogButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UiZ-tB-hzq"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Core Date Count" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z6I-Wd-KCh">
+                                <rect key="frame" x="-4" y="556" width="328" height="12"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="s9B-aR-SbO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="1JI-Qu-eK1"/>
+                            <constraint firstItem="s9B-aR-SbO" firstAttribute="width" secondItem="pq5-Ek-qDe" secondAttribute="width" id="7QJ-Dj-Fqa"/>
+                            <constraint firstItem="s9B-aR-SbO" firstAttribute="top" secondItem="rMY-UN-iZO" secondAttribute="bottom" constant="-2" id="9ZP-DB-tu4"/>
+                            <constraint firstItem="Nsd-MA-xcK" firstAttribute="centerX" secondItem="jgz-9A-5a5" secondAttribute="centerX" id="F1E-U4-AQ0"/>
+                            <constraint firstItem="s9B-aR-SbO" firstAttribute="height" secondItem="pq5-Ek-qDe" secondAttribute="height" id="F75-xU-HGc"/>
+                            <constraint firstItem="GY0-mL-KdS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HTs-Fx-SsY"/>
+                            <constraint firstItem="Nsd-MA-xcK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IHj-lb-fQL"/>
+                            <constraint firstItem="z6I-Wd-KCh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KSm-nW-vyp"/>
+                            <constraint firstItem="Nsd-MA-xcK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="KqZ-iX-Oa7"/>
+                            <constraint firstItem="rMY-UN-iZO" firstAttribute="centerX" secondItem="xM7-by-Ud2" secondAttribute="centerX" id="Mgs-fq-iJY"/>
+                            <constraint firstItem="X4O-7S-1sa" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Ufx-75-kuE"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="pq5-Ek-qDe" secondAttribute="trailing" constant="-20" id="VrR-CL-Grl"/>
+                            <constraint firstItem="rMY-UN-iZO" firstAttribute="top" secondItem="xM7-by-Ud2" secondAttribute="bottom" constant="8" id="XNS-Bq-h1L"/>
+                            <constraint firstItem="s9B-aR-SbO" firstAttribute="width" secondItem="xM7-by-Ud2" secondAttribute="width" id="Zcq-Tr-78Y"/>
+                            <constraint firstItem="Nsd-MA-xcK" firstAttribute="top" secondItem="jgz-9A-5a5" secondAttribute="bottom" constant="8" id="ann-W5-Z1d"/>
+                            <constraint firstItem="xM7-by-Ud2" firstAttribute="centerY" secondItem="vy4-YK-h25" secondAttribute="centerY" id="eWP-zp-GFg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="vy4-YK-h25" secondAttribute="trailing" constant="-20" id="fod-pT-xNm"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="GY0-mL-KdS" secondAttribute="bottom" constant="10" id="gEf-eZ-xSd"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Nsd-MA-xcK" secondAttribute="trailing" constant="-20" id="gMl-mn-RSd"/>
+                            <constraint firstItem="rMY-UN-iZO" firstAttribute="width" secondItem="ZKj-ER-KRE" secondAttribute="width" id="h6j-y3-VMD"/>
+                            <constraint firstItem="jgz-9A-5a5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="him-k0-37L"/>
+                            <constraint firstItem="z6I-Wd-KCh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="ibI-hO-BzY"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ZKj-ER-KRE" secondAttribute="trailing" constant="-20" id="lG5-jR-Ico"/>
+                            <constraint firstItem="jgz-9A-5a5" firstAttribute="top" secondItem="X4O-7S-1sa" secondAttribute="bottom" constant="8" id="nGF-yc-d2I"/>
+                            <constraint firstItem="rMY-UN-iZO" firstAttribute="centerY" secondItem="ZKj-ER-KRE" secondAttribute="centerY" id="pGO-No-XaX"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="z6I-Wd-KCh" secondAttribute="bottom" id="qPD-vK-cGc"/>
+                            <constraint firstItem="xM7-by-Ud2" firstAttribute="width" secondItem="vy4-YK-h25" secondAttribute="width" id="uVA-IG-mkl"/>
+                            <constraint firstItem="xM7-by-Ud2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="uph-HZ-nvI"/>
+                            <constraint firstItem="X4O-7S-1sa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xEL-4K-sGB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="z6I-Wd-KCh" secondAttribute="trailing" constant="-20" id="xg4-gB-kju"/>
+                            <constraint firstItem="xM7-by-Ud2" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="yV5-bN-eJB"/>
+                            <constraint firstItem="pq5-Ek-qDe" firstAttribute="centerY" secondItem="s9B-aR-SbO" secondAttribute="centerY" id="ya5-Fg-Muf"/>
+                            <constraint firstItem="xM7-by-Ud2" firstAttribute="leading" secondItem="rMY-UN-iZO" secondAttribute="leading" id="ztl-Wr-ksV"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="choreField" destination="xM7-by-Ud2" id="H0f-zq-zJM"/>
+                        <outlet property="choreRoller" destination="s9B-aR-SbO" id="hmn-er-bgD"/>
+                        <outlet property="coreDataCount" destination="z6I-Wd-KCh" id="aC4-Rj-5ov"/>
+                        <outlet property="datePicker" destination="X4O-7S-1sa" id="Ncp-JV-99M"/>
+                        <outlet property="persistedData" destination="Nsd-MA-xcK" id="T4S-kM-GoQ"/>
+                        <outlet property="personField" destination="vy4-YK-h25" id="wXw-Bq-fqb"/>
+                        <outlet property="personRoller" destination="pq5-Ek-qDe" id="Urq-vW-Ruh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="173" y="346"/>
+        </scene>
+    </scenes>
+</document>
