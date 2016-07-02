@@ -1,2 +1,2 @@
 # Core-Data-App-Obj-C
-This application explored basic CRUD using the Core Data Framework.
+This application explores basic CRUD using the Core Data Framework.
